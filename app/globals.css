@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-kp-darker text-white font-open-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-kp-yellow text-kp-dark font-bold px-8 py-4 rounded-lg transition-all duration-300 hover:bg-yellow-400 hover:shadow-lg hover:shadow-yellow-500/25 uppercase tracking-wider;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-kp-yellow text-kp-yellow font-bold px-8 py-4 rounded-lg transition-all duration-300 hover:bg-kp-yellow hover:text-kp-dark uppercase tracking-wider;
+  }
+
+  .section-padding {
+    @apply px-4 md:px-8 lg:px-16 xl:px-32;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-kp-yellow to-yellow-300 bg-clip-text text-transparent;
+  }
+}
