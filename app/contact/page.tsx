@@ -207,7 +207,7 @@ export default function Contact() {
               {/* Business Info */}
               <div className="bg-kp-gray rounded-lg p-6 border border-kp-yellow/20">
                 <h3 className="font-montserrat font-bold text-xl text-white mb-4">
-                  kP Electric, LLC
+                  KP Electric, LLC
                 </h3>
                 <ul className="space-y-3 text-gray-400">
                   <li className="flex items-center space-x-2">

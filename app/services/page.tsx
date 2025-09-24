@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Services | kP Electric - Licensed Master Electrician',
+  title: 'Services | KP Electric - Licensed Master Electrician',
   description: 'Professional electrical services for residential and commercial properties. From small repairs to large installations. Free estimates available.',
 }
 

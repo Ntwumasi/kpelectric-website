@@ -19,7 +19,7 @@ export default function Header() {
               height={48}
               className="object-contain"
             />
-            <span className="font-montserrat font-bold text-xl text-white">kP Electric</span>
+            <span className="font-montserrat font-bold text-xl text-white">KP Electric</span>
           </Link>
 
           {/* Desktop Navigation */}

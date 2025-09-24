@@ -1,6 +1,6 @@
-# kP Electric Website
+# KP Electric Website
 
-Professional website for kP Electric, LLC - Licensed master electrician services in North Shore Massachusetts.
+Professional website for KP Electric, LLC - Licensed master electrician services in North Shore Massachusetts.
 
 ## Quick Start
 
@@ -26,7 +26,7 @@ npm start
 
 ## Contact Information
 
-- **Business**: kP Electric, LLC
+- **Business**: KP Electric, LLC
 - **Owner**: Keegan Penney
 - **Email**: keeganspenney@gmail.com
 - **Phone**: 978-302-2521

@@ -1,4 +1,4 @@
-# kP Electric - Deployment Guide
+# KP Electric - Deployment Guide
 
 ## Deployment Options
 

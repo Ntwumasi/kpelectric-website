@@ -1,8 +1,8 @@
-# kP Electric Brand Guide
+# KP Electric Brand Guide
 
 ## Logo
 - Lightning bolt symbol (⚡) in yellow circle
-- Text: "kP Electric" in Montserrat Bold font
+- Text: "KP Electric" in Montserrat Bold font
 
 ## Color Palette
 
