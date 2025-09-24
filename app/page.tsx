@@ -63,9 +63,13 @@ export default function Home() {
               <div className="relative bg-kp-gray rounded-lg p-8 border border-kp-yellow/20">
                 <div className="space-y-6">
                   <div className="flex items-center justify-center">
-                    <div className="w-32 h-32 bg-kp-yellow rounded-full flex items-center justify-center">
-                      <span className="text-6xl">⚡</span>
-                    </div>
+                    <Image
+                      src="/logo.png"
+                      alt="KP Electric Logo"
+                      width={128}
+                      height={128}
+                      className="object-contain"
+                    />
                   </div>
                   <div className="text-center space-y-2">
                     <h3 className="font-montserrat font-bold text-2xl text-white">KP Electric</h3>
