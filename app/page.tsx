@@ -68,7 +68,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="text-center space-y-2">
-                    <h3 className="font-montserrat font-bold text-2xl text-white">kP Electric</h3>
+                    <h3 className="font-montserrat font-bold text-2xl text-white">KP Electric</h3>
                     <p className="text-gray-400">Your Trusted Local Master Electrician</p>
                   </div>
                 </div>
