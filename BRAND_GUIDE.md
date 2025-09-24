@@ -63,11 +63,11 @@
 - Service area information
 
 ## SEO Keywords
-- Licensed electrician North Shore MA
+- Licensed master electrician North Shore MA
 - Electrical services Massachusetts
-- Emergency electrician
+- Emergency master electrician
 - Residential electrical contractor
-- Commercial electrician
+- Commercial master electrician
 - Free electrical estimates
 
 ## Implementation Notes

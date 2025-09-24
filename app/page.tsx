@@ -23,7 +23,7 @@ export default function Home() {
               </h1>
 
               <p className="text-gray-300 text-lg md:text-xl">
-                Professional electrician services for residential and commercial needs.
+                Professional master electrician services for residential and commercial needs.
                 No job too big or small. Free estimates on all work.
               </p>
 
@@ -69,7 +69,7 @@ export default function Home() {
                   </div>
                   <div className="text-center space-y-2">
                     <h3 className="font-montserrat font-bold text-2xl text-white">kP Electric</h3>
-                    <p className="text-gray-400">Your Trusted Local Electrician</p>
+                    <p className="text-gray-400">Your Trusted Local Master Electrician</p>
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export default function Home() {
                 <span className="text-4xl">✓</span>
               </div>
               <h3 className="font-montserrat font-semibold text-xl text-white mb-2">Licensed & Insured</h3>
-              <p className="text-gray-400">Fully licensed electrician with comprehensive insurance coverage</p>
+              <p className="text-gray-400">Fully licensed master electrician with comprehensive insurance coverage</p>
             </div>
 
             <div className="text-center">

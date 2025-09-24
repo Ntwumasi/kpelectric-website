@@ -12,9 +12,13 @@ export default function Header() {
       <div className="section-padding py-4">
         <nav className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-kp-yellow rounded-full flex items-center justify-center">
-              <span className="text-2xl">⚡</span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="kP Electric Logo"
+              width={48}
+              height={48}
+              className="object-contain"
+            />
             <span className="font-montserrat font-bold text-xl text-white">kP Electric</span>
           </Link>
 

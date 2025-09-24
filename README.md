@@ -1,6 +1,6 @@
 # kP Electric Website
 
-Professional website for kP Electric, LLC - Licensed electrician services in North Shore Massachusetts.
+Professional website for kP Electric, LLC - Licensed master electrician services in North Shore Massachusetts.
 
 ## Quick Start
 
