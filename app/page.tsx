@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className="flex items-center justify-center">
                     <Image
-                      src="/logo.png"
+                      src="/kp-logo.svg"
                       alt="KP Electric Logo"
                       width={128}
                       height={128}

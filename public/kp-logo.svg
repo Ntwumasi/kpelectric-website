@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#1A1A1A" stroke="#FFD700" stroke-width="2"/>
+
+  <!-- Lightning Bolt -->
+  <path d="M 110 40 L 80 90 L 95 90 L 90 160 L 120 110 L 105 110 Z"
+        fill="#FFD700"
+        stroke="#FFA500"
+        stroke-width="1"
+        opacity="0.9"/>
+
+  <!-- Company Initials -->
+  <text x="100" y="115"
+        font-family="Arial, sans-serif"
+        font-size="48"
+        font-weight="bold"
+        fill="#FFFFFF"
+        text-anchor="middle"
+        dominant-baseline="middle">
+    KP
+  </text>
+
+  <!-- Electric Text -->
+  <text x="100" y="145"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        font-weight="600"
+        fill="#FFD700"
+        text-anchor="middle"
+        letter-spacing="2">
+    ELECTRIC
+  </text>
+
+  <!-- Subtle Glow Effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply glow to lightning -->
+  <path d="M 110 40 L 80 90 L 95 90 L 90 160 L 120 110 L 105 110 Z"
+        fill="none"
+        stroke="#FFD700"
+        stroke-width="0.5"
+        filter="url(#glow)"
+        opacity="0.6"/>
+</svg>

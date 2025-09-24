@@ -13,8 +13,8 @@ export default function Header() {
         <nav className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <Image
-              src="/logo.png"
-              alt="kP Electric Logo"
+              src="/kp-logo.svg"
+              alt="KP Electric Logo"
               width={48}
               height={48}
               className="object-contain"

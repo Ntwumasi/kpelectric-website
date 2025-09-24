@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -8,9 +9,13 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-kp-yellow rounded-full flex items-center justify-center">
-                <span className="text-xl">⚡</span>
-              </div>
+              <Image
+                src="/kp-logo.svg"
+                alt="KP Electric Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
               <span className="font-montserrat font-bold text-lg text-white">KP Electric, LLC</span>
             </div>
             <p className="text-gray-400 mb-2">Fully Licensed & Insured</p>
@@ -64,7 +69,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-kp-gray text-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} kP Electric, LLC. All rights reserved.
+            © {new Date().getFullYear()} KP Electric, LLC. All rights reserved.
           </p>
           <p className="text-gray-500 text-xs mt-2">
             Licensed & Insured | Free Estimates
