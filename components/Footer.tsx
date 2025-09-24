@@ -11,7 +11,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-kp-yellow rounded-full flex items-center justify-center">
                 <span className="text-xl">⚡</span>
               </div>
-              <span className="font-montserrat font-bold text-lg text-white">kP Electric, LLC</span>
+              <span className="font-montserrat font-bold text-lg text-white">KP Electric, LLC</span>
             </div>
             <p className="text-gray-400 mb-2">Fully Licensed & Insured</p>
             <p className="text-gray-400">Reliable Professional Service</p>
